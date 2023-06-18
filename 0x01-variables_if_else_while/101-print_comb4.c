@@ -1,16 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints all possible different combinations of three digits
- *
- * Description: Combinations are separated by ',', followed by a space.
- *              The three digits must be different.
- *              012, 120, 102, 021, 201, 210 are considered the same combination
- *              of the three digits 0, 1, and 2.
- *              Only the smallest combination of three digits is printed.
- *              Numbers are printed in ascending order, with three digits.
- *              Use putchar function to print.
- *
+ * main - possible different combinations of three digits
  * Return: Always 0 (Success)
  */
 int main(void)
