@@ -6,9 +6,9 @@
  * Return: Always 0 (Success)
  */
 
-int main() {
+int main(void) {
     int i, j;
-    
+
     for (i = 0; i <= 99; i++) {
         for (j = i + 1; j <= 99; j++) {
             int digit1 = i / 10;
@@ -28,8 +28,8 @@ int main() {
             }
         }
     }
-    
+
     putchar('\n');
-    
+
     return 0;
 }
